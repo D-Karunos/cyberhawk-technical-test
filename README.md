@@ -105,6 +105,7 @@ My notes.
 
 -   I was struggling to start my sail as it was crashing on apt update stage saying that it can't get to any ubuntu.com provided links in dockerfile. After some unsuccessful research I just checked docker compose file differences with my personal projects and only managed to make it work once updated php version from 8.1 to 8.2. Not sure if any of your other candidates were struggling with it or if my case is just unique. But if in the future somebody will do the same test I would recommend maybe to change it to 8.2 if Im not the only one that was struggling with it.
 
+-   For testing purposes I left API keys in files where they are used. I would leave them in the .env and .env.example page, but just to reduce the ammount of unwanted errors for the time being I left them in the files.
 -   currently none of my modals have nullable elements, but it would be beneficial to add it in the future for inputs like image_url and update my xhr js file to not check every field values.
 -   Would be nice also to add media library feature so its not dependant on the image url.
 -   Would be nice to add additional form validation and error messaging. I currently have only worked on when everything is going well and haven't added error messages if something is wrong.
